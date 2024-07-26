@@ -1,0 +1,69 @@
+body {
+    background-color: lightblue;
+    color: rgb(0, 0, 0);
+    font-family:"Oswald", sans-serif;;
+}
+
+p{
+    background-color:blueviolet;
+    font-size: 20px;
+    /* border expects border-width, border-style, and border-color */
+    border: 30px dashed;
+    padding: 10px;
+    margin: 50px;
+    margin-left: 100px;
+}
+.banner {
+    background-color: aliceblue;
+    font-size: 40;
+    text-align: center;
+    color:coral;
+    border: 5px dotted;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+    text-decoration:underline
+}
+
+img{
+    border:30px dotted red;
+    max-width: 100%;
+}
+
+details {
+background-color: pink;
+padding:10px;
+}
+
+summary {
+    background-color: blueviolet;
+    padding: 20px;
+    cursor:pointer;
+}
+Summary:hover {
+    background-color: antiquewhite;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover {
+    color:azure;
+    background-color: limegreen;
+}
+
+div {
+    background-color: lightblue
+}
+
+.test{
+    background-color: aliceblue;
+}
+
+#special {
+    background-color: hotpink;
+}
